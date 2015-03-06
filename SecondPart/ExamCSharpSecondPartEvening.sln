@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculation Problem01", "Calculation Problem01\Calculation Problem01.csproj", "{F5D7361A-BE74-44C7-9044-4ADD73651012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenDifferences02", "EvenDifferences02\EvenDifferences02.csproj", "{6589AABA-45AB-4554-A9E7-B8E7032210A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoverOf3", "LoverOf3\LoverOf3.csproj", "{0EFAF4C4-7288-4BD0-8A97-9F7D34D1C270}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5D7361A-BE74-44C7-9044-4ADD73651012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D7361A-BE74-44C7-9044-4ADD73651012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D7361A-BE74-44C7-9044-4ADD73651012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D7361A-BE74-44C7-9044-4ADD73651012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6589AABA-45AB-4554-A9E7-B8E7032210A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6589AABA-45AB-4554-A9E7-B8E7032210A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6589AABA-45AB-4554-A9E7-B8E7032210A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6589AABA-45AB-4554-A9E7-B8E7032210A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFAF4C4-7288-4BD0-8A97-9F7D34D1C270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFAF4C4-7288-4BD0-8A97-9F7D34D1C270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFAF4C4-7288-4BD0-8A97-9F7D34D1C270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFAF4C4-7288-4BD0-8A97-9F7D34D1C270}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
