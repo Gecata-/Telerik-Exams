@@ -1,25 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EvenDifferences02
 {
-    class Program
+    class EvenDifferences02
     {
         static void Main()
         {
             string input = Console.ReadLine();
             long sum = 0;
             var numbers = new List<long>(input.Split(' ').Select(long.Parse).ToList());
-            //foreach (var item in numbers)
-            //{
-            //    Console.WriteLine(item);   
-            //}
+
             for (int i = 1; i < numbers.Count;)
             {
+
                 long index = AbsoluteDiffernce(numbers[i], numbers[i - 1]);
+
                 if (index%2==0)
                 {
                     sum += index;

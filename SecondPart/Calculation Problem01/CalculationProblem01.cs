@@ -1,25 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Calculation_Problem01
 {
-    class Program
+    class CalculationProblem01
     {
         static void Main()
         {
             string[] input = Console.ReadLine().Split(' ').ToArray();
             int decimalNumber = 0;
             int count = 0;
-
             int temp = 0;
+
             for (int i = 0; i < input.Length; i++)
             {
                var word = input[i];
                decimalNumber = 0;
                count = 0;
+
                for (int j = word.Length-1; j >= 0 ; j--)
                {
                   
@@ -30,9 +30,9 @@ namespace Calculation_Problem01
                    decimalNumber += sum;
                    
                }
-               temp += decimalNumber;
-               
+               temp += decimalNumber;              
             }
+
             int resultInDecimal = temp;
             var twentyThree = new List<char>();
             int length = temp.ToString().Length;
@@ -48,9 +48,9 @@ namespace Calculation_Problem01
                     if (temp == 0)
                     {
                         break;
-                    }
-                              
+                    }                             
             }
+
             twentyThree.Reverse();
             string resultIn23 = string.Join("",twentyThree);
             Console.WriteLine("{0} = {1}",resultIn23,resultInDecimal);
